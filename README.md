@@ -22,7 +22,7 @@ Proyek ini merupakan implementasi dari penelitian yang berjudul **"Analisis Peng
 
 ### 1. Matriks Korelasi Pearson
 
-![Heatmap Korelasi](image/Screenshot&2026-05-09&123457.png)
+![Heatmap Korelasi](./image/Screenshot%262026-05-09%26123457.png)
 
 ### 2. Model Regresi
 
@@ -31,7 +31,7 @@ Persamaan regresi:
 Global_Sales = -1.2662 + 0.0391*(Critic_Score) - 0.0997*(User_Score)
 ```
 
-![OLS Output](./image/Screenshot&2026-05-09&123507.png)
+![OLS Output](./image/Screenshot%262026-05-09%26123507.png)
 
 **Interpretasi:**
 - **R-squared**: 0.060
@@ -41,12 +41,12 @@ Global_Sales = -1.2662 + 0.0391*(Critic_Score) - 0.0997*(User_Score)
 ### 3. Visualisasi
 
 **Scatter plot dan garis regresi (Critic Score vs Global Sales):**  
-![Scatter Plot](./image/Screenshot&2026-05-09&123451.png)
+![Scatter Plot](./image/Screenshot%262026-05-09%26123451.png)
 
 **Diagram alir tahapan penelitian:**  
-![Diagram Alir](./image/Screenshot&2026-05-09&173150.png)
-![Data Kaggel](./image/Screenshot&2026-05-09&173155.png)
-![Hasil Proses Data](./image/Screenshot&2026-05-09&173159.png)
+![Diagram Alir](./image/Screenshot%262026-05-09%26173150.png)
+![Data Kaggel](./image/Screenshot%262026-05-09%26173155.png)
+![Hasil Proses Data](./image/Screenshot%262026-05-09%26173159.png)
 
 ## 🔧 Cara Menjalankan
 
@@ -74,12 +74,13 @@ Global_Sales = -1.2662 + 0.0391*(Critic_Score) - 0.0997*(User_Score)
 ├── README.md
 ├── main.py                          # kode sumber utama (analisis regresi)
 ├── Video_Games_Sales_as_at_22_Dec_2016.csv
-├── Screenshot 2026-05-09 123451.png   # scatter plot
-├── Screenshot 2026-05-09 123457.png   # heatmap korelasi
-├── Screenshot 2026-05-09 123507.png   # output OLS
-├── Screenshot 2026-05-09 173150.png   # diagram alir
-├── Screenshot 2026-05-09 173155.png   # (gambar tambahan)
-├── Screenshot 2026-05-09 173159.png   # (gambar tambahan)
+├── image/
+│   ├── Screenshot&2026-05-09&123451.png   # scatter plot
+│   ├── Screenshot&2026-05-09&123457.png   # heatmap korelasi
+│   ├── Screenshot&2026-05-09&123507.png   # output OLS
+│   ├── Screenshot&2026-05-09&173150.png   # diagram alir
+│   ├── Screenshot&2026-05-09&173155.png   # (gambar tambahan)
+│   └── Screenshot&2026-05-09&173159.png   # (gambar tambahan)
 └── Jurnal Analisis Pengaruh Skor Kritikus...pdf   # naskah lengkap
 ```
 
