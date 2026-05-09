@@ -22,7 +22,7 @@ Proyek ini merupakan implementasi dari penelitian yang berjudul **"Analisis Peng
 
 ### 1. Matriks Korelasi Pearson
 
-![Heatmap Korelasi](./Screenshot%202026-05-09%20123457.png)
+![Heatmap Korelasi](./image/Screenshot&2026-05-09&123457.png)
 
 ### 2. Model Regresi
 
@@ -31,7 +31,7 @@ Persamaan regresi:
 Global_Sales = -1.2662 + 0.0391*(Critic_Score) - 0.0997*(User_Score)
 ```
 
-![OLS Output](./Screenshot%202026-05-09%20123507.png)
+![OLS Output](./image/Screenshot&2026-05-09&123507.png)
 
 **Interpretasi:**
 - **R-squared**: 0.060
@@ -41,10 +41,12 @@ Global_Sales = -1.2662 + 0.0391*(Critic_Score) - 0.0997*(User_Score)
 ### 3. Visualisasi
 
 **Scatter plot dan garis regresi (Critic Score vs Global Sales):**  
-![Scatter Plot](./Screenshot%202026-05-09%20123451.png)
+![Scatter Plot](./image/Screenshot&2026-05-09&123451.png)
 
 **Diagram alir tahapan penelitian:**  
-![Diagram Alir](./Screenshot%202026-05-09%20173150.png)
+![Diagram Alir](./image/Screenshot&2026-05-09&173150.png)
+![Data Kaggel](./image/Screenshot&2026-05-09&173155.png)
+![Hasil Proses Data](./image/Screenshot&2026-05-09&173159.png)
 
 ## 🔧 Cara Menjalankan
 
