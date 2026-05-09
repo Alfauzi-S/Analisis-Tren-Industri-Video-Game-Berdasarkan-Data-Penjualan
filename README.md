@@ -22,7 +22,7 @@ Proyek ini merupakan implementasi dari penelitian yang berjudul **"Analisis Peng
 
 ### 1. Matriks Korelasi Pearson
 
-![Heatmap Korelasi](./image/Screenshot&2026-05-09&123457.png)
+![Heatmap Korelasi](image/Screenshot&2026-05-09&123457.png)
 
 ### 2. Model Regresi
 
