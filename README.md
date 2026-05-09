@@ -22,14 +22,7 @@ Proyek ini merupakan implementasi dari penelitian yang berjudul **"Analisis Peng
 
 ### 1. Matriks Korelasi Pearson
 
-| Variabel       | Global_Sales | Critic_Score | User_Score |
-|----------------|--------------|--------------|------------|
-| Global_Sales   | 1.000        | 0.237        | 0.089      |
-| Critic_Score   | 0.237        | 1.000        | 0.581      |
-| User_Score     | 0.089        | 0.581        | 1.000      |
-
-*Gambar heatmap:*
-![Heatmap Korelasi](Screenshot%202026-05-09%20123457.png)
+![Heatmap Korelasi](./Screenshot%202026-05-09%20123457.png)
 
 ### 2. Model Regresi
 
@@ -38,12 +31,9 @@ Persamaan regresi:
 Global_Sales = -1.2662 + 0.0391*(Critic_Score) - 0.0997*(User_Score)
 ```
 
-| Variabel      | Koefisien | Std. Error | t-stat | P>|t| | 95% CI         |
-|---------------|-----------|------------|--------|-------|----------------|
-| Konstanta     | -1.2662   | 0.129      | -9.824 | 0.000 | [-1.519, -1.014] |
-| Critic_Score  | 0.0391    | 0.002      | 19.683 | 0.000 | [0.035, 0.043]   |
-| User_Score    | -0.0997   | 0.019      | -5.205 | 0.000 | [-0.137, -0.062] |
+![OLS Output](./Screenshot%202026-05-09%20123507.png)
 
+**Interpretasi:**
 - **R-squared**: 0.060
 - **F-statistic**: 223.0 (p < 0.001)
 - **Kesimpulan**: Model signifikan secara statistik; *Critic Score* berpengaruh positif terhadap penjualan global, sementara *User Score* menunjukkan pengaruh negatif yang kontraintuitif (mungkin karena bias waktu).
@@ -51,13 +41,10 @@ Global_Sales = -1.2662 + 0.0391*(Critic_Score) - 0.0997*(User_Score)
 ### 3. Visualisasi
 
 **Scatter plot dan garis regresi (Critic Score vs Global Sales):**  
-![Scatter Plot](Screenshot%202026-05-09%20123451.png)
-
-**Output regresi OLS (ringkasan statistik):**  
-![OLS Output](Screenshot%202026-05-09%20123507.png)
+![Scatter Plot](./Screenshot%202026-05-09%20123451.png)
 
 **Diagram alir tahapan penelitian:**  
-![Diagram Alir](Screenshot%202026-05-09%20173150.png)
+![Diagram Alir](./Screenshot%202026-05-09%20173150.png)
 
 ## 🔧 Cara Menjalankan
 
